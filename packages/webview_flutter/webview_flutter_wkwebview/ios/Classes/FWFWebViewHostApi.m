@@ -298,7 +298,6 @@
     WKWebpagePreferences* preferences = [[webView configuration] defaultWebpagePreferences];
     [preferences setPreferredContentMode:WKContentModeMobile];
     [[webView configuration] setDefaultWebpagePreferences:preferences];
-    
   }
 }
 @end
