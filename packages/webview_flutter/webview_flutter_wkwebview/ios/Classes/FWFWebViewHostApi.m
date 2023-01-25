@@ -300,9 +300,5 @@
     [[webView configuration] setDefaultWebpagePreferences:preferences];
     
   }
-  // Media playback
-  [[webView configuration] setAllowsInlineMediaPlayback:YES];
-  [[webView configuration] setAllowsPictureInPictureMediaPlayback:YES];
-  [[webView configuration] setMediaTypesRequiringUserActionForPlayback:WKAudiovisualMediaTypeNone];
 }
 @end
